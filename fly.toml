@@ -6,6 +6,11 @@ kill_timeout = 5
 processes = []
 
 [env]
+  DATABASE_URL = "sqlite3:///mnt/volume/production.sqlite3"
+
+[mounts]
+  source = "myapp_data"
+  destination = "/mnt/volume"
 
 [experimental]
   auto_rollback = true
