@@ -1,0 +1,9 @@
+DATABASE_URL=postgres://top_blogapp:1ZcPIPVhJbquaYk@top2.nearest.of.top-blogapp-db.internal:5432/top_blogapp?sslmode=disable
+
+Postgres cluster top-blogapp-db created
+  Username:    postgres
+  Password:    FVQlxskY0P7glNP
+  Hostname:    top-blogapp-db.internal
+  Proxy port:  5432
+  Postgres port:  5433
+  Connection string: postgres://postgres:FVQlxskY0P7glNP@top-blogapp-db.internal:5432
