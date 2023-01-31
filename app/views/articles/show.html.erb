@@ -1,0 +1,15 @@
+<h1><%= @article.title %></h1>
+
+<p><%= @article.body %></p>
+
+<h2>Comments:</h2>
+<%= render @article.comments %>
+
+<%= render "comments/form"%>
+
+<%= link_to "Home", articles_path%>
+<%= link_to "Edit", edit_article_path%>
+<%= link_to "Delete", article_path, data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  }%>
